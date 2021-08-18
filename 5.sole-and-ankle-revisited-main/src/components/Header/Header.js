@@ -60,19 +60,22 @@ const MainHeader = styled.div`
   display: flex;
   align-items: baseline;
   padding: 18px 32px;
-  height: 72px;
   border-bottom: 1px solid ${COLORS.gray[300]};
+  /* overflow-x: auto; */
 
-  @media ${QUERIES.phone} {
+  @media ${QUERIES.phoneAndSmaller} {
     align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 `;
 
 const Nav = styled.nav`
   display: flex;
-  gap: 48px;
+  gap: clamp(1.25rem, 9.2vw - 4.5rem, 3.5rem);
   margin: 0px 48px;
-  @media ${QUERIES.tablet} {
+
+  @media ${QUERIES.tabletAndSmaller} {
     display: none;
   }
 `;
@@ -82,14 +85,15 @@ const Side = styled.div`
 `;
 
 const DesktopSide = styled(Side)`
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     display: none;
   }
 `;
 
 const TabletSide = styled(Side)`
   display: none;
-  @media ${QUERIES.tablet} {
+
+  @media ${QUERIES.tabletAndSmaller} {
     display: revert;
   }
 `;
@@ -109,7 +113,7 @@ const MobileButtons = styled.div`
     margin-right: 37px;
   }
 
-  @media ${QUERIES.phone} {
+  @media ${QUERIES.phoneAndSmaller} {
     ${UnstyledButton}:not(:last-of-type) {
       margin-right: 20px;
     }

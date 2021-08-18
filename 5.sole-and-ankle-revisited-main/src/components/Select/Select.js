@@ -31,7 +31,7 @@ const Wrapper = styled.label`
   display: flex;
   align-items: baseline;
 
-  @media ${QUERIES.phone} {
+  @media ${QUERIES.phoneAndSmaller} {
     display: none;
   }
 `;

@@ -53,7 +53,7 @@ const Backdrop = styled(DialogOverlay)`
   background: rgba(96, 100, 108, 0.8);
   display: none;
 
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     display: block;
   }
 `;
@@ -70,16 +70,21 @@ const Wrapper = styled(DialogContent)`
   min-width: 300px;
   display: none;
 
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     display: flex;
   }
 `;
 
 const CloseButton = styled(UnstyledButton)`
   align-self: flex-end;
-  margin-right: -20px;
-  width: 24px;
-  height: 24px;
+  margin-top: -16px;
+  margin-right: -28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  color: ${COLORS.gray[900]};
 `;
 
 const Nav = styled.nav`

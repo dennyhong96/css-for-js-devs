@@ -27,7 +27,7 @@ const Wrapper = styled.aside`
   position: sticky;
   top: 32px;
 
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     display: none;
   }
 `;

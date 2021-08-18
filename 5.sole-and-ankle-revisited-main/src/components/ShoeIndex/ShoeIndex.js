@@ -47,14 +47,14 @@ const Wrapper = styled.div`
   align-items: baseline;
   gap: 32px;
 
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     flex-direction: column-reverse;
     gap: 8px;
   }
 `;
 
 const DesktopSpacer = styled(Spacer)`
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     display: none;
   }
 `;
@@ -63,7 +63,7 @@ const LeftColumn = styled.div`
   flex-basis: 248px;
   align-self: stretch;
 
-  @media ${QUERIES.tablet} {
+  @media ${QUERIES.tabletAndSmaller} {
     flex-basis: initial;
   }
 `;
