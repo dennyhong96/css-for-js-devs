@@ -50,7 +50,7 @@ const Backdrop = styled(DialogOverlay)`
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(96, 100, 108, 0.8);
+  background: var(--color-backdrop);
   display: none;
 
   @media ${QUERIES.tabletAndSmaller} {
@@ -84,7 +84,7 @@ const CloseButton = styled(UnstyledButton)`
   justify-content: center;
   width: 48px;
   height: 48px;
-  color: ${COLORS.gray[900]};
+  color: var(--color-gray-900);
 `;
 
 const Nav = styled.nav`
@@ -95,13 +95,13 @@ const Nav = styled.nav`
 
   a {
     padding: 11px 0;
-    color: ${COLORS.gray[900]};
+    color: var(--color-gray-900);
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: ${WEIGHTS.medium};
 
     &:hover {
-      color: ${COLORS.secondary};
+      color: var(--color-secondary);
     }
   }
 `;
@@ -112,7 +112,7 @@ const Footer = styled.footer`
 
   a {
     padding: 7px 0;
-    color: ${COLORS.gray[500]};
+    color: var(--color-gray-500);
     text-decoration: none;
     font-size: 0.875rem;
     font-weight: ${WEIGHTS.normal};
