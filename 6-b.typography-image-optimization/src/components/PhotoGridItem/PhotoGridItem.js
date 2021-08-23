@@ -36,6 +36,7 @@ const Picture = styled.picture`
   height: 0px;
   padding-bottom: 100%;
   position: relative;
+  margin-bottom: 8px;
 `;
 
 const Image = styled.img`
@@ -48,26 +49,27 @@ const Image = styled.img`
   display: block;
   width: 100%;
   border-radius: 2px;
-  margin-bottom: 8px;
 `;
 
 const Tags = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px 0;
 `;
 
 const Tag = styled.li`
+  display: inline;
   padding: 4px 8px;
   background: var(--color-gray-300);
   font-size: 0.875rem;
   font-weight: 475;
   color: var(--color-gray-800);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   border-radius: 1px;
+
+  &:not(:last-of-type) {
+    margin-right: 8px;
+  }
 `;
 
 export default PhotoGridItem;
