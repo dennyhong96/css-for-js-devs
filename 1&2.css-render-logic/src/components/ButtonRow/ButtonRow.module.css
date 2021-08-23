@@ -1,0 +1,13 @@
+.buttonRow {
+	/* scroll when overflow */
+	overflow: auto;
+
+	/* Force inline & inline-block items inside never wraps to a new line */
+	white-space: nowrap;
+
+	/* Position horizontal scrollbar to fit full width */
+	margin-left: -22px;
+	margin-right: -22px;
+	margin-bottom: -22px;
+	padding: 22px;
+}

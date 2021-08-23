@@ -1,0 +1,70 @@
+{
+	"name": "next-starter",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"test": "jest --coverage",
+		"test:watch": "jest --watch",
+		"lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js,.jsx",
+		"format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,mdx,css,scss,md}\"",
+		"format:check": "prettier --check \"**/*.{js,jsx,json,ts,tsx,mdx,css,scss,md}\"",
+		"svg": "svgr -d src/components/icons src/components/icons/svgs"
+	},
+	"dependencies": {
+		"next": "10.0.7",
+		"prop-types": "^15.7.2",
+		"react": "17.0.1",
+		"react-dom": "17.0.1",
+		"styled-components": "^5.2.1",
+		"styled-reset": "^4.3.4"
+	},
+	"devDependencies": {
+		"@svgr/cli": "^5.5.0",
+		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/react": "^11.2.5",
+		"babel-jest": "^26.6.3",
+		"babel-plugin-macros": "^3.0.1",
+		"eslint": "^7.20.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-config-standard": "^16.0.2",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-promise": "^4.3.1",
+		"eslint-plugin-react": "^7.22.0",
+		"husky": "^4.3.8",
+		"jest": "^26.6.3",
+		"lint-staged": "^10.5.4",
+		"prettier": "^2.2.1"
+	},
+	"lint-staged": {
+		"**/*.{json,mdx,css,scss,md}": [
+			"prettier --write"
+		],
+		"**/*.{js,jsx,ts,tsx}": [
+			"eslint --fix"
+		],
+		"*.{ts,tsx,js,jsx}": "eslint --cache --fix"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"license": "MIT",
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

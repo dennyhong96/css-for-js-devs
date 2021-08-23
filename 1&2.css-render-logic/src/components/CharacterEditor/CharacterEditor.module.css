@@ -1,0 +1,53 @@
+.characterEditor {
+	padding-top: 128px;
+	padding-bottom: 64px;
+}
+
+.maxWidthWrapper {
+	/* To render this on top of perspective effect bar */
+	position: relative;
+}
+
+.header {
+	padding-bottom: 64px;
+	width: 65%;
+}
+
+.title {
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 16px;
+	letter-spacing: -0.5px;
+}
+
+.description {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+.characterWrapper {
+	position: fixed;
+
+	/* left:50%; aligns with left side controls */
+	left: 60%;
+	top: 15%;
+
+	/* Scales based on viewport height, util it shrinks to 500px
+    Then respects min-height, cuts off lower portions. */
+	bottom: 5%;
+	min-height: 500px;
+}
+
+.controlColumn {
+	width: 50%;
+}
+
+.bar {
+	position: fixed;
+	bottom: 0;
+	height: 40%;
+	left: 0;
+	width: 100%;
+	background-color: hsl(195deg, 20%, 86%);
+}
