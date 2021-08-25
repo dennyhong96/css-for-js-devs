@@ -17,13 +17,13 @@
  */
 
 export const MAIN_STORY = {
-  id: 'a',
-  title: 'Study: Video games improve reflexes and critical thinking',
+  id: "a",
+  title: "Study: Video games improve reflexes and critical thinking",
   image: {
-    src: '/images/gamepad.jpg',
-    alt: 'An XBox gamepad, shown in dramatic lighting',
+    src: "/images/gamepad.jpg",
+    alt: "An XBox gamepad, shown in dramatic lighting",
   },
-  location: 'San Francisco',
+  location: "San Francisco",
   abstract: `24-year-old Anthony Vega enjoyed killing zombies, but didn’t realize that those skills were preparing him for work in the 21st century. It turns out, games like Super Mario Brothers and Mega Zombie Bash 2099 have a surprising correlation with in-demand skills like critical reasoning and abstract thinking.
 
 Researchers at the San Francisco think-tank Bestcap Innovations posit that time spent playing video games can be productive, in moderation. Active practice can boost reflexes, skills that will come in handy regardless of your view of the future. Even in the event of a zombie apocalypse, time spent in Mega Zombie Bash 2099 should have a powerful impact.
@@ -37,32 +37,30 @@ More than 8 billion people around the world play video games, either recreationa
 
 export const SECONDARY_STORIES = [
   {
-    id: 'b',
-    title:
-      'Politicians scramble as court overrules invalid legislation',
+    id: "b",
+    title: "Politicians scramble as court overrules invalid legislation",
     image: {
-      src: '/images/politicians.jpg',
-      alt: 'Lots of white men in suits listen apathetically to a presentation',
+      src: "/images/politicians.jpg",
+      alt: "Lots of white men in suits listen apathetically to a presentation",
     },
     abstract: `In a surprising judgment that surprised no one, the New Amsterdam court of appeals finds Bill 234 unconstitutional, overturning one of the Modern Sovereign party's core legislative achievements. Now, lawmakers are working furiously to rewrite the law before the Royal Ascent next month.`,
   },
   {
-    id: 'c',
-    title:
-      'Vintage cars fetch a premium as car industry shifts gears',
+    id: "c",
+    title: "Vintage cars fetch a premium as car industry shifts gears",
     image: {
-      src: '/images/old-car.jpg',
-      alt: 'A vintage old Beetle (car), orange and with signs of wear',
+      src: "/images/old-car.jpg",
+      alt: "A vintage old Beetle (car), orange and with signs of wear",
     },
     abstract: `In a Landsdowne auction, a vintage 1900s beetle sold “as-is” for ȿ120,000, shattering expectations and records alike. As the automotive industry focuses on ALVs (Autonomous Levitated Vehicles), some enthusiasts are paying big bucks for a more traditional driving experience.`,
   },
   {
-    id: 'd',
+    id: "d",
     title:
-      'This season’s hottest fashions unveiled amidst designer controversy',
+      "This season’s hottest fashions unveiled amidst designer controversy",
     image: {
-      src: '/images/fashion.jpg',
-      alt: 'A stylish woman carries a dozen shopping bags',
+      src: "/images/fashion.jpg",
+      alt: "A stylish woman carries a dozen shopping bags",
     },
     abstract: `Ludish Atvalatashia was in his 50s when he launched his first couture line. Famously, he worked as an engineer for Blue Rocket, and learned that many of his inventions were quite eye-catching on the runway. This week, though, whistleblowers from within his agency have revealed the toxic nature of their work environment.`,
   },
@@ -70,105 +68,103 @@ export const SECONDARY_STORIES = [
 
 export const OPINION_STORIES = [
   {
-    id: 'o-a',
-    author: 'Stephen Abebe',
-    avatar: '/images/avatar-stephen-abebe.jpg',
-    title:
-      'Humans need water to survive, and so do your potted plants!',
+    id: "o-a",
+    author: "Stephen Abebe",
+    avatar: "/images/avatar-stephen-abebe.jpg",
+    title: "Humans need water to survive, and so do your potted plants!",
   },
   {
-    id: 'o-b',
-    author: 'Mario DeLuciano',
-    avatar: '/images/avatar-mario-deluciano.jpg',
-    title: 'Sports! The secret to winning big??',
+    id: "o-b",
+    author: "Mario DeLuciano",
+    avatar: "/images/avatar-mario-deluciano.jpg",
+    title: "Sports! The secret to winning big??",
   },
   {
-    id: 'o-c',
-    author: 'Alice Smith',
-    avatar: '/images/avatar-alice-smith.jpg',
-    title: 'Why I’ll never buy groceries in-person again',
+    id: "o-c",
+    author: "Alice Smith",
+    avatar: "/images/avatar-alice-smith.jpg",
+    title: "Why I’ll never buy groceries in-person again",
   },
   {
-    id: 'o-d',
-    author: 'Rocko Pierce Stanley',
-    avatar: '/images/avatar-rocko-pierce-stanley.jpg',
-    title: 'Prediction: Disco is coming back, with a vengeance',
+    id: "o-d",
+    author: "Rocko Pierce Stanley",
+    avatar: "/images/avatar-rocko-pierce-stanley.jpg",
+    title: "Prediction: Disco is coming back, with a vengeance",
   },
 ];
 
 export const MARKET_DATA = [
   {
-    tickerSymbol: 'AAPL',
-    exchangeName: 'NASDAQ',
+    tickerSymbol: "AAPL",
+    exchangeName: "NASDAQ",
     percentChange: 4.5,
   },
   {
-    tickerSymbol: 'AMC',
-    exchangeName: 'NYSE',
+    tickerSymbol: "AMC",
+    exchangeName: "NYSE",
     percentChange: 7.9,
   },
   {
-    tickerSymbol: 'ENB',
-    exchangeName: 'TSE',
+    tickerSymbol: "ENB",
+    exchangeName: "TSE",
     percentChange: -12.4,
   },
   {
-    tickerSymbol: 'GOOG',
-    exchangeName: 'NASDAQ',
+    tickerSymbol: "GOOG",
+    exchangeName: "NASDAQ",
     percentChange: 8.1,
   },
   {
-    tickerSymbol: 'AMZN',
-    exchangeName: 'NASDAQ',
+    tickerSymbol: "AMZN",
+    exchangeName: "NASDAQ",
     percentChange: -6.6,
   },
   {
-    tickerSymbol: 'MSFT',
-    exchangeName: 'NASDAQ',
+    tickerSymbol: "MSFT",
+    exchangeName: "NASDAQ",
     percentChange: -1.2,
   },
 ];
 
 export const SPORTS_STORIES = [
   {
-    id: 's-a',
+    id: "s-a",
     image: {
-      src: '/images/habs.jpg',
-      alt: 'Montreal Canadiens goalie Carey Price covering his net',
+      src: "/images/habs.jpg",
+      alt: "Montreal Canadiens goalie Carey Price covering his net",
     },
-    title: 'Montreal Canadiens hope to settle the score in Vegas',
+    title: "Montreal Canadiens hope to settle the score in Vegas",
   },
   {
-    id: 's-b',
+    id: "s-b",
     image: {
-      src: '/images/bicycles.jpg',
-      alt: 'Lots of men in cute matching outfits riding bicycles',
+      src: "/images/bicycles.jpg",
+      alt: "Lots of men in cute matching outfits riding bicycles",
     },
-    title: 'In surprise move, the Tour de France moves to Belgium',
+    title: "In surprise move, the Tour de France moves to Belgium",
   },
   {
-    id: 's-c',
+    id: "s-c",
     image: {
-      src: '/images/football.jpg',
-      alt: 'A football player runs with the ball, whilst being chased by another player',
+      src: "/images/football.jpg",
+      alt: "A football player runs with the ball, whilst being chased by another player",
     },
-    title:
-      'The Texas Giants eke out a victory after a late-game touchdown',
+    title: "The Texas Giants eke out a victory after a late-game touchdown",
   },
   {
-    id: 's-d',
+    id: "s-d",
     image: {
-      src: '/images/decathlon.jpg',
-      alt: 'Women sprinting on a race track',
+      src: "/images/decathlon.jpg",
+      alt: "Women sprinting on a race track",
     },
-    title: 'The surprising result for this summer decathlon',
+    title: "The surprising result for this summer decathlon",
   },
   {
-    id: 's-3',
+    id: "s-3",
     image: {
-      src: '/images/coach.jpg',
-      alt: 'A soccer coach places pylons on a field',
+      src: "/images/coach.jpg",
+      alt: "A soccer coach places pylons on a field",
     },
-    title: 'Behind the scenes: coaching a Little League team',
+    title: "Behind the scenes: coaching a Little League team",
   },
 ];

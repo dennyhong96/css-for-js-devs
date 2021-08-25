@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from "styled-components/macro";
 
-import { COLORS, WEIGHTS, FAMILIES } from '../../constants';
+import { COLORS, WEIGHTS, FAMILIES } from "../../constants";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -56,9 +56,9 @@ html {
   --color-gray-500: ${COLORS.gray[500]};
   --color-gray-700: ${COLORS.gray[700]};
   --color-gray-900: ${COLORS.gray[900]};
-  --color-primary: ${COLORS.primary};
-  --color-secondary: ${COLORS.secondary};
-  --color-urgent: ${COLORS.urgent};
+  --color-primary: ${COLORS.primary}; /* dark blue */
+  --color-secondary: ${COLORS.secondary}; /* green */
+  --color-urgent: ${COLORS.urgent}; /* red */
 
   --font-weight-normal: ${WEIGHTS.normal};
   --font-weight-medium: ${WEIGHTS.medium};
